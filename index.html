@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>黄果短剧 - 官方最新地址发布页 | 永久回家地址导航</title>
+  <meta name="keywords" content="黄果短剧,黄果AI,黄果短剧最新地址,黄果短剧官网,黄果发布页,回家的路" />
+  <meta name="description" content="黄果短剧官方唯一认证地址发布页。为您提供实时测速的最新可用地址、永久防封主入口、官方邮箱与社群渠道，助您随时安全回家。" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="publish.css" />
+</head>
+
+<body>
+  <div class="container">
+    
+    <!-- 头部品牌 -->
+    <header class="header-brand">
+      <div class="logo-wrap">
+        <img src="logo.png" alt="黄果短剧" class="logo-img" />
+      </div>
+      <div>
+        <div class="brand-badge">
+          <span class="pulse-dot"></span> 官方正版线路实时测速中
+        </div>
+      </div>
+      <div class="brand-subtitle">认准唯一官方域名 huangguoai.com · 拒绝山寨冒充</div>
+    </header>
+
+    <!-- 收藏与防迷路提示卡片 -->
+    <section class="field field-tip">
+      <div class="tip-title">按 <b>Ctrl + D</b> 收藏此页 · 永不迷路</div>
+      <p class="tip-desc">手机用户强烈建议「添加到手机主屏幕」或「立即截图保存本页」</p>
+      <div class="tip-actions">
+        <button class="btn btn-outline btn-sm" onclick="bookmarkPage()">★ 收藏本页</button>
+        <button class="btn btn-primary btn-sm" onclick="copyText(window.location.href, '发布页链接')">📋 一键复制发布页网址</button>
+      </div>
+    </section>
+
+    <!-- 最新可用地址（自动测速） -->
+    <section class="field">
+      <div class="card-header">
+        <div class="card-title">
+          <span class="icon">🚀</span> 国内可用地址（直连无需代理）
+        </div>
+        <span class="card-tag">免翻墙 · 智能测速</span>
+      </div>
+      <div class="link-list" id="speed-lines-container">
+        <!-- 由 publish.js 动态渲染测速节点 -->
+      </div>
+    </section>
+
+    <!-- 官方永久主入口 -->
+    <section class="field">
+      <div class="card-header">
+        <div class="card-title">
+          <span class="icon">🛡️</span> 永久官方入口（建议保存）
+        </div>
+        <span class="card-tag">核心主干</span>
+      </div>
+      <div class="link-list" id="perm-lines-container">
+        <!-- 由 publish.js 渲染 -->
+      </div>
+    </section>
+
+    <!-- 备用发布页网络 -->
+    <section class="field">
+      <div class="card-header">
+        <div class="card-title">
+          <span class="icon">🌐</span> 备用地址发布页
+        </div>
+        <span class="card-tag">双重保险</span>
+      </div>
+      <div class="link-list" id="mirror-lines-container">
+        <!-- 由 publish.js 渲染 -->
+      </div>
+    </section>
+
+    <!-- 官方联络与自动索取最新地址 -->
+    <section class="field">
+      <div class="card-header">
+        <div class="card-title">
+          <span class="icon">✉️</span> 官方防失联与社交媒体
+        </div>
+        <span class="card-tag">官方唯一认证</span>
+      </div>
+      <div id="channels-container">
+        <!-- 由 publish.js 渲染 -->
+      </div>
+    </section>
+
+    <!-- 官方防骗严正声明（来自官网） -->
+    <section class="field">
+      <div class="notice-box">
+        <h5>⚠️ 黄果短剧官方严正防骗提醒</h5>
+        <ul class="notice-list">
+          <li><strong>唯一正版域名：</strong>认准完整域名 <code>huangguoai.com</code>，结尾增减字符、加连字符或换后缀的均为假冒钓鱼站。</li>
+          <li><strong>绝不在私聊中谈钱：</strong>官方不会通过 Telegram、私信或任何社交工具要求转账、充值或售卖代理资格。</li>
+          <li><strong>绝不索要账号密码：</strong>凡索要登录密码、短信验证码、支付密码或身份证信息的，一律是诈骗。</li>
+          <li><strong>官方 APP 安全下载：</strong>仅通过主站顶部「黄果短剧APP」入口提供，从未在第三方网盘或私聊二维码中分发。</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 访问指南与故障排障 -->
+    <section class="field">
+      <div class="card-header">
+        <div class="card-title">
+          <span class="icon">💡</span> 无法访问时的应对指南
+        </div>
+        <span class="card-tag">日常技巧</span>
+      </div>
+      <ul class="notice-list tips">
+        <li><strong>浏览器推荐：</strong>PC 与 Android 用户推荐使用 <strong>Chrome (谷歌)</strong> 浏览器，iPhone 用户推荐使用自带 <strong>Safari</strong> 浏览器。</li>
+        <li><strong>防 DNS 污染拦截：</strong>若网页无法打开，建议在网络设置中修改 DNS 为 <code>8.8.8.8</code> 或 <code>1.1.1.1</code>。</li>
+        <li><strong>网络加速说明：</strong>大陆地区用户建议开启科学网络或代理节点访问官方永久主干。</li>
+      </ul>
+    </section>
+
+    <!-- 页脚版权与更新说明 -->
+    <footer class="footer">
+      <div>© 2026 黄果短剧 (Huangguo AI) · 官方发布页版权所有</div>
+      <div>实时数据自动轮换维护 · 遇阻请发送邮件至 <code>huangguoaiai@gmail.com</code></div>
+    </footer>
+
+  </div>
+
+  <div id="toast"></div>
+
+  <script src="publish.js"></script>
+</body>
+</html>
