@@ -22,7 +22,7 @@ const SPEED_LINES = [
 
 // 备用地址发布页（防封矩阵）
 const PUBLISH_MIRRORS = [
-  { name: 'Cloudflare 永久发布页 ①', url: 'https://huangguoai.pages.dev', tag: '海外', tagClass: 'tag-backup' },
+  { name: 'Cloudflare 永久发布页 ①', url: 'https://huangguo88.pages.dev', tag: '海外', tagClass: 'tag-backup' },
   { name: 'Cloudflare 永久发布页 ②', url: 'https://huang-guo.pages.dev', tag: '备用', tagClass: 'tag-backup' },
   { name: 'GitHub 官方发布仓库', url: window.location.href.split('#')[0], tag: '当前', tagClass: 'tag-perm' },
 ];
@@ -140,7 +140,7 @@ function renderPermanentLines() {
       </div>
       <div class="link-actions">
         <button class="btn btn-outline btn-sm" onclick="copyText('${item.url}', '${item.name}')">复制</button>
-        <a class="btn btn-primary btn-sm" href="${item.url}" target="_blank" rel="noopener noreferrer">直达</a>
+        <a class="btn btn-primary btn-sm" href="${item.url}" target="_blank" rel="${item.url === 'https://huangguoai.com' ? 'me noopener' : 'noopener noreferrer'}">直达</a>
       </div>
     </div>
   `).join('');
