@@ -7,17 +7,17 @@
 const PERMANENT_DOMAINS = [
   { name: '官方网站 / 内容主站', url: 'https://huangguoai.com', tag: '主域', tagClass: 'tag-perm', speed: '32ms' },
   { name: '最新地址 / 中转入口', url: 'https://huangguoai.ai', tag: '中转', tagClass: 'tag-fast', speed: '28ms' },
-  { name: '备用主干 / 官方入口', url: 'https://hgai27.com', tag: '备用', tagClass: 'tag-backup', speed: '45ms' },
+  { name: '备用主干 / 官方入口', url: 'https://hgai28.com', tag: '备用', tagClass: 'tag-backup', speed: '45ms' },
   { name: '创作者与商务合作', url: 'https://huangguoai.me', tag: '合作', tagClass: 'tag-backup', speed: '51ms' },
 ];
 
 // 国内可用地址（直连无需代理 / 官方实时轮换节点）
 const SPEED_LINES = [
-  { name: '国内直连线路 01 (极速免翻)', url: 'https://b35e.skafqhfht.cc', tag: '推荐', tagClass: 'tag-fast', baseMs: 22 },
-  { name: '国内直连线路 02 (高速免代理)', url: 'https://p8rkne.cqcbvbrwd.cc', tag: '极速', tagClass: 'tag-fast', baseMs: 28 },
-  { name: '国内直连线路 03 (电信/多线专线)', url: 'https://3cf1.gieijzmcp.cc', tag: '极速', tagClass: 'tag-fast', baseMs: 31 },
+  { name: '国内直连线路 01 (极速免翻)', url: 'https://zv8c.zekpkeusp.cc', tag: '推荐', tagClass: 'tag-fast', baseMs: 22 },
+  { name: '国内直连线路 02 (高速免代理)', url: 'https://'bgskg.kplsifomz.cc, tag: '极速', tagClass: 'tag-fast', baseMs: 28 },
+  { name: '国内直连线路 03 (电信/多线专线)', url: 'https://p8rkne.cqcbvbrwd.cc', tag: '极速', tagClass: 'tag-fast', baseMs: 31 },
   { name: '国内直连线路 04 (移动/联通加速)', url: 'https://sz83.cqcbvbrwd.cc', tag: '流畅', tagClass: 'tag-fast', baseMs: 36 },
-  { name: '国内备用直连 05 (防封容灾线路)', url: 'https://fy5x33.ipycpknh.cc', tag: '稳定', tagClass: 'tag-backup', baseMs: 42 },
+  { name: '国内备用直连 05 (防封容灾线路)', url: 'https://3cf1.gieijzmcp.cc', tag: '稳定', tagClass: 'tag-backup', baseMs: 42 },
 ];
 
 // 备用地址发布页（防封矩阵）
