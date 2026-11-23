@@ -7,7 +7,7 @@
 const PERMANENT_DOMAINS = [
   { name: '官方网站 / 内容主站', url: 'https://huangguoai.com', tag: '主域', tagClass: 'tag-perm', speed: '32ms' },
   { name: '最新地址 / 中转入口', url: 'https://huangguoai.ai', tag: '中转', tagClass: 'tag-fast', speed: '28ms' },
-  { name: '备用主干 / 官方入口', url: 'https://hgai28.com', tag: '备用', tagClass: 'tag-backup', speed: '45ms' },
+  { name: '备用主干 / 官方入口', url: 'https://hgai29.com', tag: '备用', tagClass: 'tag-backup', speed: '45ms' },
   { name: '创作者与商务合作', url: 'https://huangguoai.me', tag: '合作', tagClass: 'tag-backup', speed: '51ms' },
 ];
 
